@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "grksXeFTZYhUCxBMwM24KQ3Zw0Ln6ZlKORmzefxdxGg=",
+  "Source": "CarggyAPI",
+  "BasePath": "_content/CarggyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

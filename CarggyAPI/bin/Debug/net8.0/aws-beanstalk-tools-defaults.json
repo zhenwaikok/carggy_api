@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : true,
+    "application"    : "CarggyAPI",
+    "environment"    : "CarggyAPI-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-065d36d35de2954f8\";\"aws:ec2:vpc,Subnets\"=\"subnet-075aa1052843f6575\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.10.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "carggyapi-dev",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "vockey",
+    "instance-profile"     : "LabInstanceProfile",
+    "service-role"         : "LabRole",
+    "proxy-server"         : "nginx"
+}
